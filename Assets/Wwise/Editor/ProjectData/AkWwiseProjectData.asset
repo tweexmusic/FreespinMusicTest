@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef2e2e5808fc64647b6acdb540bb0a98, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 37efac341677984cb55818c40295c249
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: 37efac341677984cb55818c40295c249
+    GuidInternal: 
+    m_lastTime: -8585836331114775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: aab704b18cc945479f6cf433d122437f
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: aab704b18cc945479f6cf433d122437f
+    GuidInternal: 
+    m_lastTime: -8585836331114775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aab704b18cc945479f6cf433d122437f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fa8ac7443ec04a41af66364d5492fdf9
+    ParentPath: SoundBanks/Default Work Unit
+    guid: fa8ac7443ec04a41af66364d5492fdf9
+    GuidInternal: 
+    m_lastTime: -8585836305894775808
+    List:
+    - name: Music
+      guid: 10600947f7fde7409e89a7a37cd64dcf
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa8ac7443ec04a41af66364d5492fdf9
+      - ElementName: Music
+        ObjectType: 7
+        guid: 10600947f7fde7409e89a7a37cd64dcf
+      Path: SoundBanks/Default Work Unit/Music
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9b1df725e0b0ea4fb8929deb277d1b80
+    ParentPath: Events/Default Work Unit
+    guid: 9b1df725e0b0ea4fb8929deb277d1b80
+    GuidInternal: 
+    m_lastTime: -8585836331114775808
+    List:
+    - name: freespin_end
+      guid: 6a2f7b021f37ab4893fb384b9f5dc9af
+      id: 4289952909
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9b1df725e0b0ea4fb8929deb277d1b80
+      - ElementName: FreespinEvents
+        ObjectType: 4
+        guid: 467b46620a68284295d2445c48f69fb4
+      - ElementName: freespin_end
+        ObjectType: 3
+        guid: 6a2f7b021f37ab4893fb384b9f5dc9af
+      Path: Events/Default Work Unit/FreespinEvents/freespin_end
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: freespin_intro_start
+      guid: 6328aa8780c53046b86d89466b4e9da4
+      id: 303060881
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9b1df725e0b0ea4fb8929deb277d1b80
+      - ElementName: FreespinEvents
+        ObjectType: 4
+        guid: 467b46620a68284295d2445c48f69fb4
+      - ElementName: freespin_intro_start
+        ObjectType: 3
+        guid: 6328aa8780c53046b86d89466b4e9da4
+      Path: Events/Default Work Unit/FreespinEvents/freespin_intro_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: freespin_music_start
+      guid: 3c9b1402627335499a3ff7e12539c113
+      id: 1472464510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9b1df725e0b0ea4fb8929deb277d1b80
+      - ElementName: FreespinEvents
+        ObjectType: 4
+        guid: 467b46620a68284295d2445c48f69fb4
+      - ElementName: freespin_music_start
+        ObjectType: 3
+        guid: 3c9b1402627335499a3ff7e12539c113
+      Path: Events/Default Work Unit/FreespinEvents/freespin_music_start
+      maxAttenuation: 0
+      maxDuration: 4.029841
+      minDuration: 4.029841
+    - name: freespin_ringup_start
+      guid: 0add6f42cc4a41428b854bdee8021159
+      id: 2703870418
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9b1df725e0b0ea4fb8929deb277d1b80
+      - ElementName: FreespinEvents
+        ObjectType: 4
+        guid: 467b46620a68284295d2445c48f69fb4
+      - ElementName: freespin_ringup_start
+        ObjectType: 3
+        guid: 0add6f42cc4a41428b854bdee8021159
+      Path: Events/Default Work Unit/FreespinEvents/freespin_ringup_start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: freespin_ringup_stop
+      guid: cd4892b2a82e5040a90466bf219f94b2
+      id: 4211426698
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9b1df725e0b0ea4fb8929deb277d1b80
+      - ElementName: FreespinEvents
+        ObjectType: 4
+        guid: 467b46620a68284295d2445c48f69fb4
+      - ElementName: freespin_ringup_stop
+        ObjectType: 3
+        guid: cd4892b2a82e5040a90466bf219f94b2
+      Path: Events/Default Work Unit/FreespinEvents/freespin_ringup_stop
+      maxAttenuation: 0
+      maxDuration: 6.620703
+      minDuration: 6.620703
+    - name: FreespinEvents
+      guid: 467b46620a68284295d2445c48f69fb4
+      id: 3928147512
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9b1df725e0b0ea4fb8929deb277d1b80
+      - ElementName: FreespinEvents
+        ObjectType: 4
+        guid: 467b46620a68284295d2445c48f69fb4
+      Path: Events/Default Work Unit/FreespinEvents
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a07e3728e70ccd4e8dcc223c8b3baf0e
+    ParentPath: Game Parameters/Default Work Unit
+    guid: a07e3728e70ccd4e8dcc223c8b3baf0e
+    GuidInternal: 
+    m_lastTime: -8585836331114775808
+    List:
+    - name: FSRingupVolume
+      guid: 66595da02701b14ab150467b29651967
+      id: 2840406835
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a07e3728e70ccd4e8dcc223c8b3baf0e
+      - ElementName: FSRingupVolume
+        ObjectType: 13
+        guid: 66595da02701b14ab150467b29651967
+      Path: Game Parameters/Default Work Unit/FSRingupVolume
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c66d41fbbfffa74a80d9a400bf530dc4
+    ParentPath: States/Default Work Unit
+    guid: c66d41fbbfffa74a80d9a400bf530dc4
+    GuidInternal: 
+    m_lastTime: -8585836293154775808
+    List:
+    - name: FreespinMusicStates
+      guid: 7354e67724d56d439981de2796ae0406
+      id: 1205912814
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c66d41fbbfffa74a80d9a400bf530dc4
+      - ElementName: FreespinMusicStates
+        ObjectType: 9
+        guid: 7354e67724d56d439981de2796ae0406
+      Path: States/Default Work Unit/FreespinMusicStates
+      values:
+      - name: FreespinEnd
+        guid: da50ed7b08616a4990bfc73c71eff2e2
+        id: 4013253266
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c66d41fbbfffa74a80d9a400bf530dc4
+        - ElementName: FreespinMusicStates
+          ObjectType: 9
+          guid: 7354e67724d56d439981de2796ae0406
+        - ElementName: FreespinEnd
+          ObjectType: 8
+          guid: da50ed7b08616a4990bfc73c71eff2e2
+      - name: FreespinIntro
+        guid: d3023dac86f05d4a91fd66e595680e0c
+        id: 1741593071
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c66d41fbbfffa74a80d9a400bf530dc4
+        - ElementName: FreespinMusicStates
+          ObjectType: 9
+          guid: 7354e67724d56d439981de2796ae0406
+        - ElementName: FreespinIntro
+          ObjectType: 8
+          guid: d3023dac86f05d4a91fd66e595680e0c
+      - name: FreespinStart
+        guid: 7090bc03305f514796281c11bda40b59
+        id: 2712224113
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c66d41fbbfffa74a80d9a400bf530dc4
+        - ElementName: FreespinMusicStates
+          ObjectType: 9
+          guid: 7354e67724d56d439981de2796ae0406
+        - ElementName: FreespinStart
+          ObjectType: 8
+          guid: 7090bc03305f514796281c11bda40b59
+      - name: None
+        guid: d6d96d8d00550740bbe8daace11a9a97
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c66d41fbbfffa74a80d9a400bf530dc4
+        - ElementName: FreespinMusicStates
+          ObjectType: 9
+          guid: 7354e67724d56d439981de2796ae0406
+        - ElementName: None
+          ObjectType: 8
+          guid: d6d96d8d00550740bbe8daace11a9a97
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8a892be55dfa10449627c65acccb64ca
+    ParentPath: Switches/Default Work Unit
+    guid: 8a892be55dfa10449627c65acccb64ca
+    GuidInternal: 
+    m_lastTime: -8585836331114775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 824d555aa71370498c44c42a6e5a565d
+    ParentPath: Triggers/Default Work Unit
+    guid: 824d555aa71370498c44c42a6e5a565d
+    GuidInternal: 
+    m_lastTime: -8585836331114775808
+    List:
+    - name: FS_Outro_Trigger
+      guid: 78f96db5e35fcf4894f4af74ebc0f798
+      id: 4154858369
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 824d555aa71370498c44c42a6e5a565d
+      - ElementName: FS_Outro_Trigger
+        ObjectType: 14
+        guid: 78f96db5e35fcf4894f4af74ebc0f798
+      Path: Triggers/Default Work Unit/FS_Outro_Trigger
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 01000000090000000a0000000c0000000d000000
+  AutoSyncSelection: 1
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 
